@@ -1,0 +1,16 @@
+# Codex / OpenAI login cache: never commit auth tokens
+.auth/
+auth.json
+**/auth.json
+.codex/
+**/.codex/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
